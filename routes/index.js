@@ -5,7 +5,7 @@ router.get("/", (req, res) => {
     return res.render("index");
 })
 
-router.get("/competiton", (req, res) => {
+router.get("/competition", (req, res) => {
     return res.render("competition");
 })
 
